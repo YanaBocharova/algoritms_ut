@@ -35,7 +35,6 @@ namespace AlgoritmicalTasksAndUT
                         foundValue = key;
                     }
                 }
-                
             }
             return foundValue;
         }

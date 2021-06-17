@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmicalTasksAndUT", "AlgoritmicalTasksAndUT\AlgoritmicalTasksAndUT.csproj", "{05AB0E20-CF37-4D89-AD37-4E41D322B1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoritmicalTasksAndUT", "AlgoritmicalTasksAndUT\AlgoritmicalTasksAndUT.csproj", "{05AB0E20-CF37-4D89-AD37-4E41D322B1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmicalTasksTests", "AlgoritmicalTasksTests\AlgoritmicalTasksTests.csproj", "{B6419C73-2A37-45F7-B455-D5BBFC7E9D19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{05AB0E20-CF37-4D89-AD37-4E41D322B1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05AB0E20-CF37-4D89-AD37-4E41D322B1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05AB0E20-CF37-4D89-AD37-4E41D322B1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6419C73-2A37-45F7-B455-D5BBFC7E9D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6419C73-2A37-45F7-B455-D5BBFC7E9D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6419C73-2A37-45F7-B455-D5BBFC7E9D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6419C73-2A37-45F7-B455-D5BBFC7E9D19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
