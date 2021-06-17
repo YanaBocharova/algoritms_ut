@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\git_tasks\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj": {}
+    "C:\\Users\\hp\\Desktop\\AlgoRepo\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\git_tasks\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj": {
+    "C:\\Users\\hp\\Desktop\\AlgoRepo\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\git_tasks\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\AlgoRepo\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
         "projectName": "AlgoritmicalTasksAndUT",
-        "projectPath": "C:\\Users\\hp\\Desktop\\git_tasks\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\AlgoRepo\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\git_tasks\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\AlgoRepo\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
