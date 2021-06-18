@@ -11,7 +11,6 @@ namespace AlgoritmicalTasksAndUT
 
             Console.Read();
         }
-        
         private static void ShowResultArrayNumbers()
         {
             int[] arr = { 1, 2, 2, 6, 6, 6, 6, 7, 10 };
