@@ -9,7 +9,20 @@ namespace AlgoritmicalTasksAndUT
 
             ShowResultArrayNumbers();
 
+            ShowResultArrayUniqueNumbers();
+
             Console.Read();
+        }
+
+        private static void ShowResultArrayUniqueNumbers()
+        {
+            int[] arr = { 1, 12, 32,32, 2, 22, 0, 33 };
+
+            ArrayUniqueNumbers array = new ArrayUniqueNumbers();
+
+            bool isUnique = array.isUniqueValue(arr);
+
+            Console.WriteLine($"array contains all values == {isUnique}");
         }
         private static void ShowResultArrayNumbers()
         {
