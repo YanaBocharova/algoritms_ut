@@ -16,15 +16,13 @@ namespace AlgoritmicalTasksAndUT
             {
                 isUnique = false;
             }
-
-            if (arr!=null && arr.Length!=0)
-            {
+            else
+            { 
                 for (int i = 0; i < arr.Length; i++)
                 {
                     if (dictNums.ContainsKey(arr[i]))
                     {
                         isUnique = false;
-
                         break;
                     }
                     else

@@ -6,15 +6,12 @@ namespace AlgoritmicalTasksAndUT
     {
         static void Main(string[] args)
         {
-
             ShowResultArrayNumbers();
 
             ShowResultArrayUniqueNumbers();
 
             Console.Read();
         }
-
-        #region functions
         private static void ShowResultArrayUniqueNumbers()
         {
             int[] arr = { 1, 12, 32,2, 22, 0, 33 };
@@ -24,6 +21,7 @@ namespace AlgoritmicalTasksAndUT
             bool isUnique = array.isUniqueValue(arr);
 
             Console.WriteLine($"array contains all values == {isUnique}");
+
         }
         private static void ShowResultArrayNumbers()
         {
@@ -34,8 +32,7 @@ namespace AlgoritmicalTasksAndUT
             int foundNumber = array.ReturnNumber(arr);
 
             Console.WriteLine($"found integer= {foundNumber}");
-        }
 
-        #endregion
+        }
     }
 }
