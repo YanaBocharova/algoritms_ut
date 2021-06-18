@@ -31,5 +31,21 @@ namespace AlgoritmicalTasksTests
             // assert
             Assert.AreEqual(-1, result);
         }
+
+
+        [TestMethod]
+        public void ArrayNumbers_InputSortArray_ReturnValue()
+        {
+            // arrange 
+            var ArrayNumTestObj = new ArrayNumbers();
+
+            int[] arr = { 1, 2, 2, 6, 6, 6, 6, 7, 10 };
+
+            // act
+            int result = ArrayNumTestObj.ReturnNumber(arr);
+
+            // assert
+            Assert.AreEqual(6, result);
+        }
     }
 }
