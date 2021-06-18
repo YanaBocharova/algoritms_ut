@@ -6,23 +6,31 @@ namespace AlgoritmicalTasksAndUT
 {
     public class ArrayUniqueNumbers
     {
-        public bool isUniqueValue(int[] Arr)
+        public bool isUniqueValue(int[] arr)
         {
             Dictionary<int, int> dictNums = new Dictionary<int, int>();
 
             bool isUnique = true;
 
-            for (int i = 0; i < Arr.Length; i++)
+            if (arr == null || arr.Length == 0)
             {
-                if (dictNums.ContainsKey(Arr[i]))
-                {
-                    isUnique = false;
+                isUnique = false;
+            }
 
-                    break;
-                }
-                else
+            if (arr!=null && arr.Length!=0)
+            {
+                for (int i = 0; i < arr.Length; i++)
                 {
-                    dictNums.Add(Arr[i], Arr[i]);
+                    if (dictNums.ContainsKey(arr[i]))
+                    {
+                        isUnique = false;
+
+                        break;
+                    }
+                    else
+                    {
+                        dictNums.Add(arr[i], arr[i]);
+                    }
                 }
             }
             return isUnique;

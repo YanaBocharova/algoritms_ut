@@ -25,8 +25,10 @@ namespace AlgoritmicalTasksTests
             // arrange 
             var ArrayNumTestObj = new ArrayNumbers();
 
+            int[] arr = { };
+
             // act
-            var result = ArrayNumTestObj.ReturnNumber(null);
+            var result = ArrayNumTestObj.ReturnNumber(arr);
 
             // assert
             Assert.AreEqual(-1, result);

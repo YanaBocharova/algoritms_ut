@@ -14,9 +14,10 @@ namespace AlgoritmicalTasksAndUT
             Console.Read();
         }
 
+        #region functions
         private static void ShowResultArrayUniqueNumbers()
         {
-            int[] arr = { 1, 12, 32,32, 2, 22, 0, 33 };
+            int[] arr = { 1, 12, 32,2, 22, 0, 33 };
 
             ArrayUniqueNumbers array = new ArrayUniqueNumbers();
 
@@ -34,5 +35,7 @@ namespace AlgoritmicalTasksAndUT
 
             Console.WriteLine($"found integer= {foundNumber}");
         }
+
+        #endregion
     }
 }
