@@ -6,24 +6,21 @@ namespace AlgoritmicalTasksAndUT
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
+            ShowResultArrayNumbers();
 
-
-
-            int[] arr = { 1, 2, 2, 6, 6, 6, 6, 7, 10};
-            int[] arr2=null;
+            Console.Read();
+        }
+        
+        private static void ShowResultArrayNumbers()
+        {
+            int[] arr = { 1, 2, 2, 6, 6, 6, 6, 7, 10 };
 
             ArrayNumbers array = new ArrayNumbers();
 
-            int foundNumber=array.ReturnNumber(arr);
+            int foundNumber = array.ReturnNumber(arr);
 
             Console.WriteLine($"found integer= {foundNumber}");
-
-
-
-
-            Console.Read();
         }
     }
 }

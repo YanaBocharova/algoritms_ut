@@ -7,11 +7,12 @@ namespace AlgoritmicalTasksAndUT
 {
     public class ArrayNumbers
     {
-
         public int ReturnNumber(int[]  arr)
         {
             Dictionary<int, int> dictNums = new Dictionary<int, int>();
+
             int foundValue = -1;
+
             if (arr != null && arr.Length!=0)
             {
                 for (int i = 0; i < arr.Length; i++)
@@ -24,7 +25,6 @@ namespace AlgoritmicalTasksAndUT
                     {
                         dictNums[arr[i]] = 1;
                     }
-                   
                 }
                 int maxNumber = dictNums.Values.Max();
 
@@ -33,6 +33,8 @@ namespace AlgoritmicalTasksAndUT
                     if (dictNums[key] == maxNumber)
                     {
                         foundValue = key;
+
+                        break;
                     }
                 }
             }

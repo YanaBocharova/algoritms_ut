@@ -32,7 +32,6 @@ namespace AlgoritmicalTasksTests
             Assert.AreEqual(-1, result);
         }
 
-
         [TestMethod]
         public void ArrayNumbers_InputSortArray_ReturnValue()
         {
