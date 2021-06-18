@@ -18,7 +18,7 @@ namespace AlgoritmicalTasksAndUT
 
             ArrayUniqueNumbers array = new ArrayUniqueNumbers();
 
-            bool isUnique = array.isUniqueValue(arr);
+            bool isUnique = array.IsUniqueValue(arr);
 
             Console.WriteLine($"array contains all values == {isUnique}");
 

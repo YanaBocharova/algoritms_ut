@@ -13,7 +13,7 @@ namespace AlgoritmicalTasksTests
             var ArrayNumTestObj = new ArrayUniqueNumbers();
 
             // act
-            var result = ArrayNumTestObj.isUniqueValue(null);
+            var result = ArrayNumTestObj.IsUniqueValue(null);
 
             // assert
             Assert.AreEqual(false, result);
@@ -27,7 +27,7 @@ namespace AlgoritmicalTasksTests
 
             int[] arr = { };
             // act
-            var result = ArrayNumTestObj.isUniqueValue(arr);
+            var result = ArrayNumTestObj.IsUniqueValue(arr);
 
             // assert
             Assert.AreEqual(false, result);
@@ -41,7 +41,7 @@ namespace AlgoritmicalTasksTests
 
             int[] arr = { 1, 12, 32, 2, 22, 0, 33 };
             // act
-            var result = ArrayNumTestObj.isUniqueValue(arr);
+            var result = ArrayNumTestObj.IsUniqueValue(arr);
 
             // assert
             Assert.AreEqual(true, result);
@@ -54,7 +54,7 @@ namespace AlgoritmicalTasksTests
 
             int[] arr = { 1, 12, 32,32, 2, 22, 0, 33 };
             // act
-            var result = ArrayNumTestObj.isUniqueValue(arr);
+            var result = ArrayNumTestObj.IsUniqueValue(arr);
 
             // assert
             Assert.AreEqual(false, result);

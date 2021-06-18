@@ -6,7 +6,7 @@ namespace AlgoritmicalTasksAndUT
 {
     public class ArrayUniqueNumbers
     {
-        public bool isUniqueValue(int[] arr)
+        public bool IsUniqueValue(int[] arr)
         {
             Dictionary<int, int> dictNums = new Dictionary<int, int>();
 
