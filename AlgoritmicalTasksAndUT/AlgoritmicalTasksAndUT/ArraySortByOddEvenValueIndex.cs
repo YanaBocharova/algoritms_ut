@@ -17,7 +17,7 @@ namespace AlgoritmicalTasksAndUT
 
             Stack<int> oddNum = new Stack<int>();
 
-            if ( arr.Length != 0 )
+            if (arr != null && arr.Length != 0 )
             {
                 for (int i = 0; i < arr.Length; i++)
                 {
