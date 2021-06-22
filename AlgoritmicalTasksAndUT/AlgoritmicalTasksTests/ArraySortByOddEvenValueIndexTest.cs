@@ -12,27 +12,30 @@ namespace AlgoritmicalTasksTests
         [TestMethod]
         public void ArraySortByOddEvenValueIndex_InputEmpty_ReturnEmptyArray()
         {
+
             //arrange
-           var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
+            var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
             int[] arr = { };
 
             //act
-           var result = ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
+            var result = ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
 
             // assert
             Assert.AreEqual(arr, result);
         }
 
         [TestMethod]
-        public void ArraySortByOddEvenValueIndex_InputEmpty_ReturnSortedArray()
+        public void ArraySortByOddEvenValueIndex_InputArray_ReturnSortedArray()
         {
+
             //arrange
-           var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
+            var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
-            int[] arr = { 3, 3, 22, 44, 36 };
+            int[] arr = { 3, 3, 22, 4, 2 };
 
-            int[] sortArr = { 44 , 3 , 22 , 3 , 36 };
+            int[] sortArr = { 2 , 3 , 4 , 3 , 22 };
+
             //act
             var result = ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
 

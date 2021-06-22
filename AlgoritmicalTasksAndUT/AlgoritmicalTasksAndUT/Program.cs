@@ -19,7 +19,7 @@ namespace AlgoritmicalTasksAndUT
         {
             ArraySortByOddEvenValueIndex ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
-            int[] arr = { 3, 3, 22, 44, 36 };
+            int[] arr = { 3, 3, 22, 3, 22};
            
             var sortArr= ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
 
@@ -27,6 +27,7 @@ namespace AlgoritmicalTasksAndUT
             {
                 Console.Write($"{item,5}");
             }
+
         }
         private static void ShowResulIterationValueArray()
         {
