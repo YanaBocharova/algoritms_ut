@@ -11,7 +11,22 @@ namespace AlgoritmicalTasksAndUT
 
             ShowResulIterationValueArray();
 
+            ShowResulItSortEvenNumberAtEvenIndex();
+
             Console.Read();
+        }
+        private static void ShowResulItSortEvenNumberAtEvenIndex()
+        {
+            ArraySortByOddEvenValueIndex ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
+
+            int[] arr = { 3, 3, 22, 44, 36 };
+           
+            var sortArr= ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
+
+            foreach (var item in sortArr)
+            {
+                Console.Write($"{item,5}");
+            }
         }
         private static void ShowResulIterationValueArray()
         {
