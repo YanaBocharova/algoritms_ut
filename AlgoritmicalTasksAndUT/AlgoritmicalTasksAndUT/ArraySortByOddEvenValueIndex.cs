@@ -6,18 +6,21 @@ namespace AlgoritmicalTasksAndUT
 {
     public class ArraySortByOddEvenValueIndex
     {
-        public int[]  SortArrayEvenNumberAtEvenIndex(int[] arr)
+        public int[] SortArrayEvenNumberAtEvenIndex(int[] arr)
         {
-
+            if (arr == null)
+            {
+                throw new Exception();
+            }
+ 
             Stack<int> evenNum = new Stack<int>();
-
             Stack<int> oddNum = new Stack<int>();
 
-            if (arr != null && arr.Length != 0 )
+            if (arr.Length != 0)
             {
                 for (int i = 0; i < arr.Length; i++)
                 {
-                    if( arr[i] % 2 == 0)
+                    if (arr[i] % 2 == 0)
                     {
                         evenNum.Push(arr[i]);
                     }
@@ -27,18 +30,18 @@ namespace AlgoritmicalTasksAndUT
                         oddNum.Push(arr[i]);
                     }
                 }
-            }
 
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if( i % 2 == 0 && evenNum.Count !=0)
+                for (int i = 0; i < arr.Length; i++)
                 {
-                    arr[i] = evenNum.Pop();
-                }
+                    if (i % 2 == 0 && evenNum.Count != 0)
+                    {
+                        arr[i] = evenNum.Pop();
+                    }
 
-                if (i % 2 != 0 && oddNum.Count != 0)
-                {
-                    arr[i] = oddNum.Pop();
+                    if (i % 2 != 0 && oddNum.Count != 0)
+                    {
+                        arr[i] = oddNum.Pop();
+                    }
                 }
             }
 

@@ -12,7 +12,6 @@ namespace AlgoritmicalTasksTests
         [TestMethod]
         public void ArraySortByOddEvenValueIndex_InputEmpty_ReturnEmptyArray()
         {
-
             //arrange
             var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
@@ -28,11 +27,10 @@ namespace AlgoritmicalTasksTests
         [TestMethod]
         public void ArraySortByOddEvenValueIndex_InputArray_ReturnSortedArray()
         {
-
             //arrange
             var ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
-            int[] arr = { 3, 3, 22, 4, 2 };
+            int[] arr = { 3 , 3 , 22 , 4 , 2 };
 
             int[] sortArr = { 2 , 3 , 4 , 3 , 22 };
 
@@ -42,6 +40,5 @@ namespace AlgoritmicalTasksTests
             //assert
             CollectionAssert.AreEqual(sortArr, result);
         }
-
     }
 }

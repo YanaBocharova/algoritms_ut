@@ -6,7 +6,6 @@ namespace AlgoritmicalTasksAndUT
     {
         static void Main(string[] args)
         {
-
             ShowResultArrayNumbers();
 
             ShowResulIterationValueArray();
@@ -15,33 +14,42 @@ namespace AlgoritmicalTasksAndUT
 
             Console.Read();
         }
+
         private static void ShowResulItSortEvenNumberAtEvenIndex()
         {
             ArraySortByOddEvenValueIndex ArrayNumTestObj = new ArraySortByOddEvenValueIndex();
 
-            int[] arr = { 3, 3, 22, 3, 22};
-           
-            var sortArr= ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
+            int[] arr = { 3 , 3 , 2 , 3 , 22 };
 
-            foreach (var item in sortArr)
+            try
             {
-                Console.Write($"{item,5}");
-            }
+                var sortArr = ArrayNumTestObj.SortArrayEvenNumberAtEvenIndex(arr);
 
+                foreach (var item in sortArr)
+                {
+                    Console.Write($"{item,5}");
+                }
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("sortArr is null");
+            }
         }
+
         private static void ShowResulIterationValueArray()
         {
             ArrayUniqueValueCountOccur ArrayNumTestObj = new ArrayUniqueValueCountOccur();
 
-            int[] arr = { 1, 1, 2, 3, 3, 3, 3 };
-            // act
+            int[] arr = { 1 , 1 , 2 , 3 , 3 , 3 , 3 };
+           
             var result = ArrayNumTestObj.IsUniqueIterationValue(arr);
 
             Console.WriteLine($"iteration unique values = {result}");
         }
+
         private static void ShowResultArrayNumbers()
         {
-            int[] arr = { 1, 2, 2, 6, 6, 6, 6, 7, 10 };
+            int[] arr = { 1 , 2 , 2 , 6 , 6 , 6 , 6 , 7 , 10 };
 
             ArrayNumbers array = new ArrayNumbers();
 
