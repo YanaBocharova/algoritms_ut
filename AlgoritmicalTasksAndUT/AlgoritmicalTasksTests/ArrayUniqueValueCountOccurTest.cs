@@ -42,7 +42,7 @@ namespace AlgoritmicalTasksTests
             // arrange 
             var ArrayNumTestObj = new ArrayUniqueValueCountOccur();
 
-            int[] arr = { 1, 1, 2, 22, 22, 22, 3, 3, 3, 3 };
+            int[] arr = { 1 , 1 , 2 , 22 , 22 , 22 , 3 , 3 , 3 , 3 };
             // act
             var result = ArrayNumTestObj.IsUniqueIterationValue(arr);
 
@@ -55,7 +55,7 @@ namespace AlgoritmicalTasksTests
             // arrange 
             var ArrayNumTestObj = new ArrayUniqueValueCountOccur();
 
-            int[] arr = { 1, 1, 2,2, 22, 22, 22, 22, 3, 3, 3, 3 };
+            int[] arr = { 1 , 1 , 2 , 2 , 22 , 22 , 22 , 22 , 3 , 3 , 3 , 3 };
             // act
             var result = ArrayNumTestObj.IsUniqueIterationValue(arr);
 
