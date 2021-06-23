@@ -6,13 +6,36 @@ namespace AlgoritmicalTasksAndUT
     {
         static void Main(string[] args)
         {
-            ShowResultArrayNumbers();
+            //ShowResultArrayNumbers();
 
-            ShowResulIterationValueArray();
+            //ShowResulIterationValueArray();
 
-            ShowResulItSortEvenNumberAtEvenIndex();
+            //ShowResulItSortEvenNumberAtEvenIndex();
+
+            ShowReturnListAnswers();
 
             Console.Read();
+        }
+
+        private static void ShowReturnListAnswers()
+        {
+            ArrayStringByCondition arrayStringBy = new ArrayStringByCondition();
+
+            int[] arr = { 3 , 4 , 5 , 15 , 30 , -1};
+
+            try
+            {
+                var strArr = arrayStringBy.CreateArrayStringByConditionInputArray(arr);
+
+                strArr.ForEach(str =>
+                {
+                    Console.WriteLine(str);
+                });
+            }
+            catch(Exception)
+            {
+                Console.WriteLine(" arr is null");
+            }
         }
 
         private static void ShowResulItSortEvenNumberAtEvenIndex()
@@ -29,6 +52,7 @@ namespace AlgoritmicalTasksAndUT
                 {
                     Console.Write($"{item,5}");
                 }
+
             }
             catch (Exception)
             {
