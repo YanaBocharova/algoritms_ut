@@ -8,10 +8,6 @@ namespace AlgoritmicalTasksAndUT
     {
         public int[]  SortArrayEvenNumberAtEvenIndex(int[] arr)
         {
-            if (arr == null)
-            {
-                throw new NullReferenceException();
-            }
 
             Stack<int> evenNum = new Stack<int>();
 
