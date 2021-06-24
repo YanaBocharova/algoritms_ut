@@ -12,9 +12,27 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowResulItSortEvenNumberAtEvenIndex();
 
-            ShowReturnListAnswers();
+            //ShowReturnListAnswers();
+
+            ShowSelfDividingNumbersList();
 
             Console.Read();
+        }
+
+        private static void ShowSelfDividingNumbersList()
+        {
+            SelfDividingNumbersList numbersList = new SelfDividingNumbersList();
+
+            int leftNum =   10;
+            int rigthNum =  25;
+
+            var result = numbersList.SeachSelfDivisibleNumbers(leftNum, rigthNum);
+
+            if (result.Count > 0)
+            {
+                 result.ForEach(item => Console.Write($"{item, 5}"));
+            }
+            else Console.Write($"self-dividing numbers don't exist");
         }
 
         private static void ShowReturnListAnswers()
