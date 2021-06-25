@@ -63,6 +63,10 @@ namespace AlgoritmicalTasksAndUT
                     listNums.Add(i);
                 }
             }
+            else if (rigthNum == leftNum)
+            {
+                listNums.Add(leftNum);
+            }
 
             return listNums;
         }

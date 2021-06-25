@@ -23,8 +23,8 @@ namespace AlgoritmicalTasksAndUT
         {
             SelfDividingNumbersList numbersList = new SelfDividingNumbersList();
 
-            int leftNum =   120;
-            int rigthNum =  128;
+            int leftNum =   10;
+            int rigthNum =  25;
 
             var result = numbersList.SeachSelfDivisibleNumbers(leftNum, rigthNum);
 
