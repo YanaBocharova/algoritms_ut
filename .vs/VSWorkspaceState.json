@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AlgoritmicalTasksAndUT",
+    "\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT",
+    "\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksTests"
   ],
-  "SelectedNode": "\\C:\\Users\\hp\\Desktop\\git_tasks",
+  "SelectedNode": "\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
