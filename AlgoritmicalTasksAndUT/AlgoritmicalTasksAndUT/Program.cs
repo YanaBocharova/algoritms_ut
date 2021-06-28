@@ -30,15 +30,9 @@ namespace AlgoritmicalTasksAndUT
 
             if (result.Count > 0)
             {
-                result.ForEach(item =>
-                {
-                    Console.Write($"{item,5}");
-                });
+                result.ForEach(item => Console.Write($"{item, 5}"));
             }
-            else
-            {
-                Console.Write($"self-dividing numbers don't exist");
-            }
+            else Console.Write($"self-dividing numbers don't exist");
         }
 
         private static void ShowReturnListAnswers()

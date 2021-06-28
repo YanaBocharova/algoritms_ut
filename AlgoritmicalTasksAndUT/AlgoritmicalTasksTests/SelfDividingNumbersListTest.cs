@@ -44,23 +44,5 @@ namespace AlgoritmicalTasksTests
             // assert
             CollectionAssert.AreEqual(outPutList, result);
         }
-
-        [TestMethod]
-        public void SelfDividingNumbersListTest_InputNegativeNumbers_ReturnResultList()
-        {
-            // arrange 
-            var ArrayNumTestObj = new SelfDividingNumbersList();
-
-            int left = -10;
-            int right = 15;
-
-            List<int> outPutList = new List<int> { -9, -8, -7, -6, -5, -4, -3, -2, -1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15 };
-
-            // act
-            var result = ArrayNumTestObj.SeachSelfDivisibleNumbers(left, right);
-
-            // assert
-            CollectionAssert.AreEqual(outPutList, result);
-        }
     }
 }
