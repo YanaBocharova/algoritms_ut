@@ -17,15 +17,9 @@ namespace AlgoritmicalTasksAndUT
 
             for (int i = 0; i < words.Count; i++)
             {
-                foreach (var item in allowed?.ToCharArray())
-                {
-                    if (words[i].Contains(item)) {
-
-                        listAnswrers.Add(words[i]);
-
-                        break;
-                    }
-                }
+                if (allowedSymb.ToCharArray().All(item => words[i].Contains(item)))
+                
+                listAnswrers.Add(words[i]);
             }
  
             return listAnswrers.Count;
