@@ -7,12 +7,8 @@ namespace AlgoritmicalTasksAndUT
 {
     public class StringConsistentAnycharacters
     {
-        public int CountApearValues(string allowedSymb, List<string> wordsList)
+        public int CountApearValues(string allowedSymb, List<string> words)
         {
-            string allowed = allowedSymb;
-
-            List<string> words = wordsList;
-
             List<string> listAnswrers = new List<string>();
 
             for (int i = 0; i < words.Count; i++)
