@@ -17,9 +17,9 @@ namespace AlgoritmicalTasksTests
 
             string allowed = "ab";
 
-            List<string> words = new List<string>() { "ad", "bn", "aaab", "baa", "nn", "word" };
+            List<string> words = new List<string>() { "ad", "bn", "aaab", "baa", "nn", "badab" };
 
-            int count = 2;
+            int count = 3;
 
             // act
             var result = TestObj.CountApearValues(allowed, words);

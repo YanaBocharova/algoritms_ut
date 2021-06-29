@@ -15,9 +15,24 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowReturnListAnswers();
 
-            ShowStringConsistentAnycharacters();
+            //ShowStringConsistentAnycharacters();
+
+            ShowStringContainsOnlyAllowedSymbols();
 
             Console.Read();
+        }
+
+        private static void ShowStringContainsOnlyAllowedSymbols()
+        {
+            StringContainsOnlyAllowedSymbols stringContains = new StringContainsOnlyAllowedSymbols();
+
+            string allowed = "abc";
+
+            List<string> words = new List<string>() { "bn","cm", "baa", "cca", "bb","ac"};
+
+            var count = stringContains.CountWordContainsAlloedValues(allowed, words);
+
+            Console.WriteLine($" count = {count}");
         }
 
         private static void ShowStringConsistentAnycharacters()
