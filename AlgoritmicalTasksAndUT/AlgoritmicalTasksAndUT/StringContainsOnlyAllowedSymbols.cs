@@ -8,26 +8,21 @@ namespace AlgoritmicalTasksAndUT
 {
     public class StringContainsOnlyAllowedSymbols
     {
-        private string pattern = string.Empty;
-
-        List<string> words = new List<string>();
-
-        List<string> listAnswrers = new List<string>();
-        public int CountWordContainsAlloedValues(string allowedSymb, List<string> wordsList)
+        public int CountWordContainsAlloedValues(string allowedSymb, List<string> words)
         {
-            pattern = $"^[{allowedSymb}]+$";
+            List<string> listAnswrers = new List<string>();
 
-            words = wordsList;
+            string pattern = $"^[{allowedSymb}]+$";
 
             for (int i = 0; i < words.Count; i++)
             {
-               if ( Regex.IsMatch(words[i], pattern))
+               if (Regex.IsMatch(words[i], pattern))
                {
                     listAnswrers.Add(words[i]);
                }
-            }
+           }
 
-            return listAnswrers.Count;
+           return listAnswrers.Count;
         }
     }
 }
