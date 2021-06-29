@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace AlgoritmicalTasksAndUT
 {
@@ -14,9 +15,37 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowReturnListAnswers();
 
-            ShowSelfDividingNumbersList();
+            //ShowStringConsistentAnycharacters();
+
+            ShowStringContainsOnlyAllowedSymbols();
 
             Console.Read();
+        }
+
+        private static void ShowStringContainsOnlyAllowedSymbols()
+        {
+            StringContainsOnlyAllowedSymbols stringContains = new StringContainsOnlyAllowedSymbols();
+
+            string allowed = "abc";
+
+            List<string> words = new List<string>() { "bn","cm", "baa", "cca", "bb","ac"};
+
+            var count = stringContains.CountWordContainsAlloedValues(allowed, words);
+
+            Console.WriteLine($" count = {count}");
+        }
+
+        private static void ShowStringConsistentAnycharacters()
+        {
+            StringConsistentAnycharacters stringConsistent = new StringConsistentAnycharacters();
+
+            string allowed = "ab";
+
+            List<string> words = new List<string>() { "ad", "bn", "aaab", "baa", "nn", "word" };
+
+            var count = stringConsistent.CountApearValues(allowed, words);
+
+            Console.WriteLine($"count words = {count}");
         }
 
         private static void ShowSelfDividingNumbersList()
