@@ -17,9 +17,25 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowStringConsistentAnycharacters();
 
-            ShowStringContainsOnlyAllowedSymbols();
+            //ShowStringContainsOnlyAllowedSymbols();
+
+            ShowReplaceElementArrayMaxValue();
 
             Console.Read();
+        }
+
+        private static void ShowReplaceElementArrayMaxValue()
+        {
+            ReplaceElementArrayMaxValue arrayMaxValue = new ReplaceElementArrayMaxValue();
+
+            List<int> arr = new List<int> { 12, 18, 2, 3, 6, 1 };
+
+            var output = arrayMaxValue.ReplaceElementMaxValue(arr);
+
+            output.ForEach(item =>
+            {
+                Console.Write($"{item,3}");
+            });
         }
 
         private static void ShowStringContainsOnlyAllowedSymbols()
@@ -52,14 +68,14 @@ namespace AlgoritmicalTasksAndUT
         {
             SelfDividingNumbersList numbersList = new SelfDividingNumbersList();
 
-            int leftNum =   10;
-            int rigthNum =  25;
+            int leftNum = 10;
+            int rigthNum = 25;
 
             var result = numbersList.SeachSelfDivisibleNumbers(leftNum, rigthNum);
 
             if (result.Count > 0)
             {
-                result.ForEach(item => Console.Write($"{item, 5}"));
+                result.ForEach(item => Console.Write($"{item,5}"));
             }
             else Console.Write($"self-dividing numbers don't exist");
         }
