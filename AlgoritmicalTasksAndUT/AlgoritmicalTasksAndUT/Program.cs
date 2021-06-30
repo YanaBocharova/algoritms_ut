@@ -21,9 +21,22 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowReplaceElementArrayMaxValue();
 
-            ShowReverseElementString();
+            //ShowReverseElementString();
+
+            ShowLuckyIntengerInArray();
 
             Console.Read();
+        }
+
+        private static void ShowLuckyIntengerInArray()
+        {
+            LuckyIntengerInArray luckyIntenger = new LuckyIntengerInArray();
+
+            int[] arr = { 2, 2, 3, 3, 3, 7, 11 };
+
+            var luckyNumber = luckyIntenger.SeachLuckyInterger(arr);
+
+            Console.WriteLine($"lucky number = {luckyNumber}");
         }
 
         private static void ShowReverseElementString()
