@@ -18,7 +18,7 @@ namespace AlgoritmicalTasksTests
 
             string str = ("Good word");
 
-            string reverseStr = ("dooG drow ");
+            string reverseStr = ("dooG drow");
 
             // act
             var result = TestObj.ReverceString(str);
@@ -35,7 +35,7 @@ namespace AlgoritmicalTasksTests
 
             string str = string.Empty;
 
-            string reverseStr = " ";
+            string reverseStr = string.Empty;
 
             // act
             var result = TestObj.ReverceString(str);

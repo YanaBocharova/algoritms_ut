@@ -9,13 +9,21 @@ namespace AlgoritmicalTasksAndUT
     {
         public string ReverceString(string str)
         {
-            List<string> s = str.Split(' ').ToList();
+            if(str == null)
+            {
+                throw new Exception();
+            }
+            if (str.Length == 0)
+            {
+                return string.Empty;
+            }
+            List<string> arrayString = str.Split(' ').ToList();
 
             StringBuilder builder = new StringBuilder();
 
-            s.ForEach(item => builder.Append(new string(item.ToCharArray().Reverse().ToArray()) + ' '));
+            arrayString.ForEach(item => builder.Append(new string(item.ToCharArray().Reverse().ToArray()) + ' '));
 
-            var reverStr = builder.ToString();
+            var reverStr = builder.ToString().Remove(builder.Length-1);
 
             return reverStr;
         }

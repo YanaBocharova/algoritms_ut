@@ -28,13 +28,20 @@ namespace AlgoritmicalTasksAndUT
 
         private static void ShowReverseElementString()
         {
-            ReverseElementString reverseElementString = new ReverseElementString();
+            try
+            {
+                ReverseElementString reverseElementString = new ReverseElementString();
 
-            string str = ("Good morning");
+                string str = ("Good morning");
 
-            var revStr = reverseElementString.ReverceString(str);
+                var revStr = reverseElementString.ReverceString("");
 
-            Console.WriteLine(revStr);
+                Console.WriteLine(revStr);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("string  == null");
+            }
         }
 
         private static void ShowReplaceElementArrayMaxValue()
