@@ -34,7 +34,7 @@ namespace AlgoritmicalTasksAndUT
 
                 string str = ("Good morning");
 
-                var revStr = reverseElementString.ReverceString("");
+                var revStr = reverseElementString.ReverceString(str);
 
                 Console.WriteLine(revStr);
             }
