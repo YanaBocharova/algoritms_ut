@@ -23,9 +23,22 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowReverseElementString();
 
-            ShowLuckyIntengerInArray();
+            //ShowLuckyIntengerInArray();
+
+             ShowResultIsPalidromString();
 
             Console.Read();
+        }
+
+        private static void ShowResultIsPalidromString()
+        {
+            IsStringPalidrom stringPalidrom = new IsStringPalidrom();
+
+            string inputStr = "asVsa";
+
+            var isPalidrom = stringPalidrom.CheckString("");
+
+            Console.WriteLine($"String is palidrom = {isPalidrom}");
         }
 
         private static void ShowLuckyIntengerInArray()
