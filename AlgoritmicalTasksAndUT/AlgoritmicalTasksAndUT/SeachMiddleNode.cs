@@ -11,19 +11,19 @@ namespace AlgoritmicalTasksAndUT
             if (list.Count > 1)
             {
                 var current = list.First;
-                var seachnode = list.First;
+                var searchNode = list.First;
 
-                while (current.Next != null && current != null)
+                while (current.Next != null)
                 {
                     if (current.Next.Next == null)
                     {
-                        return seachnode.Next;
+                        return searchNode.Next;
                     }
                     current = current.Next.Next;
-                    seachnode = seachnode.Next;
+                    searchNode = searchNode.Next;
                 }
 
-                return seachnode;
+                return searchNode;
             }
 
             return list.First;

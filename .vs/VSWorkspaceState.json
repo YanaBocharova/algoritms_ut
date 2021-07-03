@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AlgoritmicalTasksAndUT",
+    "\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT"
   ],
-  "SelectedNode": "\\AlgoritmicalTasksAndUT.sln",
+  "SelectedNode": "\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.sln",
   "PreviewInSolutionExplorer": false
 }

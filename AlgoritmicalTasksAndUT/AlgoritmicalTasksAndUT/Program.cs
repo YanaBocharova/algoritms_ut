@@ -26,7 +26,7 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowLuckyIntengerInArray();
 
-            // ShowResultIsPalidromString();
+             ShowResultIsPalidromString();
 
              ShowMiddleNodeLinked();
 
@@ -41,7 +41,6 @@ namespace AlgoritmicalTasksAndUT
             list.AddLast(2);
             list.AddLast(3);
             list.AddLast(4);
-            list.AddLast(5);
 
             SeachMiddleNode seachNode = new SeachMiddleNode();
 
