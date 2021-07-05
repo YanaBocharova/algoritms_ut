@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AlgoritmicalTasksAndUT
 {
@@ -23,9 +24,40 @@ namespace AlgoritmicalTasksAndUT
 
             //ShowReverseElementString();
 
-            ShowLuckyIntengerInArray();
+            //ShowLuckyIntengerInArray();
+
+             ShowResultIsPalidromString();
+
+             ShowMiddleNodeLinked();
 
             Console.Read();
+        }
+
+        private static void ShowMiddleNodeLinked()
+        {
+            LinkedList<int> list = new LinkedList<int>();
+
+            list.AddLast(1);
+            list.AddLast(2);
+            list.AddLast(3);
+            list.AddLast(4);
+
+            SeachMiddleNode seachNode = new SeachMiddleNode();
+
+            var resultNode = seachNode.SeachNode(list);
+
+            Console.WriteLine($"middle node is {resultNode.Value}");
+        }
+      
+        private static void ShowResultIsPalidromString()
+        {
+            IsStringPalidrom stringPalidrom = new IsStringPalidrom();
+
+            string inputStr = "asVsa";
+
+            var isPalidrom = stringPalidrom.CheckString("");
+
+            Console.WriteLine($"String is palidrom = {isPalidrom}");
         }
 
         private static void ShowLuckyIntengerInArray()

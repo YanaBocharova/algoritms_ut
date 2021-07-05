@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\algoritms_ut\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\ку\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
       "projectName": "AlgoritmicalTasksAndUT",
-      "projectPath": "C:\\Users\\hp\\Source\\Repos\\algoritms_ut\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
+      "projectPath": "C:\\Users\\hp\\Desktop\\ку\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Source\\Repos\\algoritms_ut\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\ку\\AlgoritmicalTasksAndUT\\AlgoritmicalTasksAndUT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
